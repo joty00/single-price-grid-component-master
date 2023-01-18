@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    padding-top: 35px;  
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    max-height: 750px;
+    font-size: 16px;
+    box-shadow: 1px 7px 20px hsla(218, 20%, 18%, 0.257);
+}
+
+.join-cart {
+    background-color: #ffffff;
+    border-radius: 2% 2% 0 0;
+    padding: 12px 0 12px 25px;
+}
+
+.subtittle {
+    color: hsl(71, 73%, 54%);
+}
+
+.subscription-cart {
+    background-color: hsl(179, 62%, 43%);
+    padding: 12px 25px;
+    color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+}
+
+.info-cart {
+    background-color: rgb(74, 190, 189);
+    border-radius: 0 0 2.5% 2.5%;
+    padding: 12px 25px;
+    color: hsla(203, 44%, 93%, 0.934);
+    line-height: 22px;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: hsla(203, 44%, 93%, 0.873);
+    height: 50px;
+    border-radius: 6px;
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    box-shadow: 1px 2px 20px hsla(218, 20%, 18%, 0.257);
+}
+
+span {
+    color: hsla(203, 44%, 93%, 0.697);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 15px;
+
+}
+
+h1 {
+    font-size: 21px;
+    color: hsl(179, 62%, 43%);
+}
+
+h3 {
+    font-size: 18px;
+    color: hsla(203, 44%, 93%, 0.926);
+}
+
+.grey-txt {
+    color: hsl(218, 22%, 67%);
+    line-height: 28px;
+    padding-right: 10px;
+}
+
+.price {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.access {
+    margin: 5px 0;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 700px) {
+    .bottom {
+        display: flex;
+        max-width: 640px;
+        border-radius: 2.5px;
+    }
+
+    body {
+        height: 100vh;
+        padding: 0px;
+    }
+
+    .cart {
+        max-width: 640px;
+        border-radius: 2.5px;
+    }
+
+    .join-cart {
+        padding: 30px 100px 30px 30px;
+    }
+
+    .subscription-cart {
+        padding: 12px 30px;
+        width: 260px;
+        border-radius: 0 0 0 2.5%;
+    }
+
+    .info-cart {
+        padding: 12px 30px;
+        width: 260px;
+        border-radius: 0 0 2.5% 0;
+    }
+}
